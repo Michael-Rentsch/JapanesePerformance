@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1209A92B0FB1B500EA167D /* JapanesePerformanceVehiclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209A82B0FB1B500EA167D /* JapanesePerformanceVehiclesApp.swift */; };
+		0A1209AD2B0FB1B700EA167D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1209AC2B0FB1B700EA167D /* Assets.xcassets */; };
+		0A1209B12B0FB1B700EA167D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1209B02B0FB1B700EA167D /* Preview Assets.xcassets */; };
+		0A1209BB2B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209BA2B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.swift */; };
+		0A1209C52B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209C42B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.swift */; };
+		0A1209C72B0FB1B700EA167D /* JapanesePerformanceVehiclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209C62B0FB1B700EA167D /* JapanesePerformanceVehiclesUITestsLaunchTests.swift */; };
+		0A1209D42B0FB76900EA167D /* CountrySelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209D32B0FB76900EA167D /* CountrySelectView.swift */; };
+		0A1209D62B0FB80100EA167D /* VehicleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209D52B0FB80100EA167D /* VehicleDataModel.swift */; };
+		0A1209D92B0FC54400EA167D /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1209D82B0FC54400EA167D /* CountryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A1209B72B0FB1B700EA167D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12099D2B0FB1B500EA167D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1209A42B0FB1B500EA167D;
+			remoteInfo = JapanesePerformanceVehicles;
+		};
+		0A1209C12B0FB1B700EA167D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A12099D2B0FB1B500EA167D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1209A42B0FB1B500EA167D;
+			remoteInfo = JapanesePerformanceVehicles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1209A52B0FB1B500EA167D /* JapanesePerformanceVehicles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanesePerformanceVehicles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1209A82B0FB1B500EA167D /* JapanesePerformanceVehiclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanesePerformanceVehiclesApp.swift; sourceTree = "<group>"; };
+		0A1209AC2B0FB1B700EA167D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A1209AE2B0FB1B700EA167D /* JapanesePerformanceVehicles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JapanesePerformanceVehicles.entitlements; sourceTree = "<group>"; };
+		0A1209B02B0FB1B700EA167D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A1209B62B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanesePerformanceVehiclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1209BA2B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanesePerformanceVehiclesTests.swift; sourceTree = "<group>"; };
+		0A1209C02B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanesePerformanceVehiclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1209C42B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanesePerformanceVehiclesUITests.swift; sourceTree = "<group>"; };
+		0A1209C62B0FB1B700EA167D /* JapanesePerformanceVehiclesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanesePerformanceVehiclesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A1209D32B0FB76900EA167D /* CountrySelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectView.swift; sourceTree = "<group>"; };
+		0A1209D52B0FB80100EA167D /* VehicleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataModel.swift; sourceTree = "<group>"; };
+		0A1209D82B0FC54400EA167D /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1209A22B0FB1B500EA167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209B32B0FB1B700EA167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209BD2B0FB1B700EA167D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A12099C2B0FB1B500EA167D = {
+			isa = PBXGroup;
+			children = (
+				0A1209A72B0FB1B500EA167D /* JapanesePerformanceVehicles */,
+				0A1209B92B0FB1B700EA167D /* JapanesePerformanceVehiclesTests */,
+				0A1209C32B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests */,
+				0A1209A62B0FB1B500EA167D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1209A62B0FB1B500EA167D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1209A52B0FB1B500EA167D /* JapanesePerformanceVehicles.app */,
+				0A1209B62B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.xctest */,
+				0A1209C02B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1209A72B0FB1B500EA167D /* JapanesePerformanceVehicles */ = {
+			isa = PBXGroup;
+			children = (
+				0A1209A82B0FB1B500EA167D /* JapanesePerformanceVehiclesApp.swift */,
+				0A1209AC2B0FB1B700EA167D /* Assets.xcassets */,
+				0A1209AE2B0FB1B700EA167D /* JapanesePerformanceVehicles.entitlements */,
+				0A1209AF2B0FB1B700EA167D /* Preview Content */,
+				0A1209D32B0FB76900EA167D /* CountrySelectView.swift */,
+				0A1209D52B0FB80100EA167D /* VehicleDataModel.swift */,
+				0A1209D82B0FC54400EA167D /* CountryCell.swift */,
+			);
+			path = JapanesePerformanceVehicles;
+			sourceTree = "<group>";
+		};
+		0A1209AF2B0FB1B700EA167D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A1209B02B0FB1B700EA167D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A1209B92B0FB1B700EA167D /* JapanesePerformanceVehiclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1209BA2B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.swift */,
+			);
+			path = JapanesePerformanceVehiclesTests;
+			sourceTree = "<group>";
+		};
+		0A1209C32B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1209C42B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.swift */,
+				0A1209C62B0FB1B700EA167D /* JapanesePerformanceVehiclesUITestsLaunchTests.swift */,
+			);
+			path = JapanesePerformanceVehiclesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1209A42B0FB1B500EA167D /* JapanesePerformanceVehicles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1209CA2B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehicles" */;
+			buildPhases = (
+				0A1209A12B0FB1B500EA167D /* Sources */,
+				0A1209A22B0FB1B500EA167D /* Frameworks */,
+				0A1209A32B0FB1B500EA167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapanesePerformanceVehicles;
+			productName = JapanesePerformanceVehicles;
+			productReference = 0A1209A52B0FB1B500EA167D /* JapanesePerformanceVehicles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A1209B52B0FB1B700EA167D /* JapanesePerformanceVehiclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1209CD2B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehiclesTests" */;
+			buildPhases = (
+				0A1209B22B0FB1B700EA167D /* Sources */,
+				0A1209B32B0FB1B700EA167D /* Frameworks */,
+				0A1209B42B0FB1B700EA167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1209B82B0FB1B700EA167D /* PBXTargetDependency */,
+			);
+			name = JapanesePerformanceVehiclesTests;
+			productName = JapanesePerformanceVehiclesTests;
+			productReference = 0A1209B62B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A1209BF2B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1209D02B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehiclesUITests" */;
+			buildPhases = (
+				0A1209BC2B0FB1B700EA167D /* Sources */,
+				0A1209BD2B0FB1B700EA167D /* Frameworks */,
+				0A1209BE2B0FB1B700EA167D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1209C22B0FB1B700EA167D /* PBXTargetDependency */,
+			);
+			name = JapanesePerformanceVehiclesUITests;
+			productName = JapanesePerformanceVehiclesUITests;
+			productReference = 0A1209C02B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A12099D2B0FB1B500EA167D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0A1209A42B0FB1B500EA167D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					0A1209B52B0FB1B700EA167D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0A1209A42B0FB1B500EA167D;
+					};
+					0A1209BF2B0FB1B700EA167D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 0A1209A42B0FB1B500EA167D;
+					};
+				};
+			};
+			buildConfigurationList = 0A1209A02B0FB1B500EA167D /* Build configuration list for PBXProject "JapanesePerformanceVehicles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A12099C2B0FB1B500EA167D;
+			productRefGroup = 0A1209A62B0FB1B500EA167D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1209A42B0FB1B500EA167D /* JapanesePerformanceVehicles */,
+				0A1209B52B0FB1B700EA167D /* JapanesePerformanceVehiclesTests */,
+				0A1209BF2B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1209A32B0FB1B500EA167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1209B12B0FB1B700EA167D /* Preview Assets.xcassets in Resources */,
+				0A1209AD2B0FB1B700EA167D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209B42B0FB1B700EA167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209BE2B0FB1B700EA167D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1209A12B0FB1B500EA167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1209D92B0FC54400EA167D /* CountryCell.swift in Sources */,
+				0A1209D42B0FB76900EA167D /* CountrySelectView.swift in Sources */,
+				0A1209A92B0FB1B500EA167D /* JapanesePerformanceVehiclesApp.swift in Sources */,
+				0A1209D62B0FB80100EA167D /* VehicleDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209B22B0FB1B700EA167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1209BB2B0FB1B700EA167D /* JapanesePerformanceVehiclesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1209BC2B0FB1B700EA167D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1209C52B0FB1B700EA167D /* JapanesePerformanceVehiclesUITests.swift in Sources */,
+				0A1209C72B0FB1B700EA167D /* JapanesePerformanceVehiclesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A1209B82B0FB1B700EA167D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1209A42B0FB1B500EA167D /* JapanesePerformanceVehicles */;
+			targetProxy = 0A1209B72B0FB1B700EA167D /* PBXContainerItemProxy */;
+		};
+		0A1209C22B0FB1B700EA167D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1209A42B0FB1B500EA167D /* JapanesePerformanceVehicles */;
+			targetProxy = 0A1209C12B0FB1B700EA167D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1209C82B0FB1B700EA167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A1209C92B0FB1B700EA167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A1209CB2B0FB1B700EA167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JapanesePerformanceVehicles/JapanesePerformanceVehicles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JapanesePerformanceVehicles/Preview Content\"";
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehicles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A1209CC2B0FB1B700EA167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JapanesePerformanceVehicles/JapanesePerformanceVehicles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JapanesePerformanceVehicles/Preview Content\"";
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehicles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A1209CE2B0FB1B700EA167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehiclesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanesePerformanceVehicles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapanesePerformanceVehicles";
+			};
+			name = Debug;
+		};
+		0A1209CF2B0FB1B700EA167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehiclesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanesePerformanceVehicles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapanesePerformanceVehicles";
+			};
+			name = Release;
+		};
+		0A1209D12B0FB1B700EA167D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehiclesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapanesePerformanceVehicles;
+			};
+			name = Debug;
+		};
+		0A1209D22B0FB1B700EA167D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXHRGY7SVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelRentsch.JapanesePerformanceVehiclesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapanesePerformanceVehicles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1209A02B0FB1B500EA167D /* Build configuration list for PBXProject "JapanesePerformanceVehicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1209C82B0FB1B700EA167D /* Debug */,
+				0A1209C92B0FB1B700EA167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1209CA2B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehicles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1209CB2B0FB1B700EA167D /* Debug */,
+				0A1209CC2B0FB1B700EA167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1209CD2B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehiclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1209CE2B0FB1B700EA167D /* Debug */,
+				0A1209CF2B0FB1B700EA167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1209D02B0FB1B700EA167D /* Build configuration list for PBXNativeTarget "JapanesePerformanceVehiclesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1209D12B0FB1B700EA167D /* Debug */,
+				0A1209D22B0FB1B700EA167D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A12099D2B0FB1B500EA167D /* Project object */;
+}
