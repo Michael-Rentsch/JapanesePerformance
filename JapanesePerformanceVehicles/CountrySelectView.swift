@@ -9,36 +9,32 @@ import SwiftUI
 
 struct CountrySelectView: View {
     
-
+    
     
     var body: some View {
         VStack {
-            Text("Please Select a Country")
-                .font(.title2)
-                .bold()
-                .padding()
             
-            List {
-                Text("America")
-                Text("Canada")
-                Text("United Kingdom")
-                Text("Netherlands")
-                Text("Germany")
-                Text("South Africa")
-                Text("Japan")
-                Text("China")
-                Text("Australia")
+            NavigationStack {
+                List {
+                    Text("America")
+                    Text("Canada")
+                    Text("United Kingdom")
+                    Text("Netherlands")
+                    Text("Germany")
+                    Text("South Africa")
+                    Text("Japan")
+                    Text("China")
+                    Text("Australia")
+                        
+                }
+                .listStyle(.insetGrouped)
+                .navigationTitle("Country")
+                
             }
-            
-            .listStyle(.insetGrouped)
-            
-            
-            
+            }
         }
-        
-        
     }
-}
+
 
 #Preview {
     CountrySelectView()
